@@ -11,9 +11,9 @@ body{
 .card {
     width: 90%;
     max-width: 470px;
-    margin: 100px auto 0;
+    margin: 20px auto 0;
     background: linear-gradient(135deg, #00feba, #5b548a);
-    border-radius: 20px;
+    border-radius: 40px;
     padding: 40px 35px;
     text-align: center;
 }
@@ -50,4 +50,40 @@ body{
 }
 .search button img{
     width: 25px;
+}
+.weather{
+    color: white;
+    
+}
+.detail{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.humidity,.wind{
+    padding-right:10px;
+    padding-top: 20px;
+    font-size: 28px;
+}
+.weather-icon{
+    height: 150px;
+}
+.temp{
+    font-size: 70px;
+}
+.city{
+    font-size: 40px;
 }
